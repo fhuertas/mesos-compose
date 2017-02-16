@@ -1,0 +1,15 @@
+{
+  "id": "web",
+  "cmd": null,
+  "cpus": 0.2,
+  "mem": 128,
+  "disk": 0,
+  "instances": 1,
+  "container": {
+    "docker": {
+      "image": "mesosphere/simple-docker",
+      "network": "HOST"
+    },
+    "type": "DOCKER"
+  }
+}
